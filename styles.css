@@ -1,0 +1,47 @@
+:root {
+  background-color: black;
+  color: grey;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: consolas;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+text {
+  font-family: monospace;
+  font-size: 8px;
+}
+
+.legendtext {
+  font-size: 12px;
+}
+
+#chartbox {
+  position: relative;
+  border: 5px solid;
+  border-radius: 4px;
+  max-width: min-content;
+  max-height: min-content;
+  margin: auto;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 10;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: consolas;
+  color: gainsboro;
+}
